@@ -1,0 +1,470 @@
+html
+{
+   padding: env(safe-area-inset);
+}
+html,body
+{
+   line-height: 1.9;
+   font-family: 'Lato', sans-serif; 
+   color:  #000000;
+}
+.navbar-brand img {
+   height: 3rem;
+}
+.navbar {
+   padding: .7rem 1rem;
+   
+   font-weight: 300;
+   letter-spacing: .1rem;
+   font-size: .9rem;
+   transition: background-color .5s ease;
+}
+.navbar-nav li {
+   padding-right: .8rem;
+}
+.navbar-nav .nav-link {
+   color: white;
+   padding-top: .8rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+   color: gray;
+}
+.custom-toggler-icon
+ {
+  color: white;
+   font-size: 1.6rem;
+  
+}
+.navbar.solid,
+.navbar.solid-toggle {
+   background: rgba(0, 0, 0, .7)!important;
+   transition: background-color 1s ease;
+}
+
+
+.custom-toggler-icon
+{
+   color: white;
+   padding-top: .8rem;
+   padding-right: .8rem;
+}
+.custom1-toggler-icon
+{
+   color: white;
+   font-size: small;
+   padding-top: .9rem;
+   padding-right: .8rem;
+}
+.custom2-toggler-icon
+{
+   font-size: 5rem;
+}
+button:focus, a:focus{
+   outline: 0;
+   -webkit-appearance: none;
+   box-shadow: none;
+   transition: all.6s ease;   
+}
+
+button, a, a.btn,
+ .svg-inline--fa
+{
+transition: all.6s ease;
+}
+
+.navbar.solid
+{
+   background:rgba(0,0,0,.9);
+   transition: background-color 1s ease;
+}
+
+
+.navbar.solid-toggle
+{
+   background:rgba(0,0,0,.8)!important;
+   transition: background-color 1s ease;
+}
+/*-Landing-*/
+.landing
+{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   display: table;
+   z-index: -1;
+     }
+   .home-wrap
+   {
+      clip: rect(0,auto,auto,0);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+   }
+.home-inner
+{
+   background-image: url('../img/background2.png');
+   position: relative;
+   height: 150%;
+   width: 100%;
+background-size: cover;
+background-position: center center;
+display: table;
+}
+
+
+/*-caption-*/
+.caption
+{
+   z-index: 1;
+   position: absolute;
+   top: 20%;
+   padding-right: 20%;
+   color: white; 
+   padding-bottom: 1rem;  
+   }
+   .caption h3{
+      padding-bottom: 2rem; 
+      font-size: 80%;
+      padding-right: .8rem;
+   }
+ 
+   .caption .btn-outline-light
+   {
+      width: 150px; 
+      height: 40px;
+      padding-right: 8rem; 
+      padding: 5px 0px; 
+      border-radius: 20px; 
+      font-size: 15px; 
+      text-align: center; 
+      margin-right: 2%;
+   }
+
+   .captionimg img {
+      background-color:grey;
+      box-shadow: 0 0 .8rem rgba(0, 0, 0, 075);
+      transition: transform .7s ease;
+      width: 25rem;
+    }
+   .captionimg img:hover {
+      transform: scale(1.1);
+   }
+  
+  .offset:before 
+  {
+    content:"";
+     height: 4rem;   
+     display: block;
+     margin-top: -4rem;
+  }
+  .offset1:before {
+   content: "";
+   display: block;
+   margin-top: -15rem;
+}
+/*--- About Mana --*/
+.aboutimg img{
+   width: 40rem;
+}
+.custom3-toggler-icon
+{
+   color: orangered;
+   padding: .2rem;
+}
+
+/*--service--*/
+
+.gallery img {
+      background-color:grey;
+      box-shadow: 0 0 .8rem rgba(0, 0, 0, 075);
+      transition: transform .7s ease;
+      width: 15rem;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+   }
+   
+ 
+   
+
+   .ourclient
+   {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: table;
+      z-index: -1;
+        }
+      .client-wrap
+      {
+         clip: rect(0, auto, auto, 0);
+         position: absolute;
+         height: 100%;
+         width: 100%;
+         top: ;
+         left:;
+      }
+   .client-inner
+   {
+   background-image: url('../img/background-bg.png');
+   position: absolute;
+   height: 80%;
+   width: 100%;
+   background-size: cover;
+   background-position:center center ;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   will-change: transform;
+   display: ;
+   }
+   
+   .client-inner h3
+   {
+ 
+   }
+
+
+   /*--footer--*/
+   .navbar-nav1 .nav1-link
+   {
+      color: white;  
+   }
+
+  .navbar-brand1 img
+  {
+   height: 3rem;
+   } 
+       .nav1-link.active,
+       .nav1-link:hover {
+         color: gray;
+      }
+
+   .footer-underline
+   {
+      width: .2rem;
+      height: 4rem;
+      background-color:white;
+      margin: 2 auto 3rem; 
+   }
+   .footer-underline
+   {
+      Margin-top:0% ;
+      margin-right:3rem;
+   
+   }
+   .footerunderline1
+   {
+      width: 22rem;
+      height: .2rem;
+      background-color: #1EBBA3;
+      margin: 0 auto 2rem;
+   }
+   .footerunderline2
+   {
+      width: 8rem;
+      height: .2rem;
+      background-color:blue;
+   }
+
+   .footer
+   {
+      background: url('../img/footer.jpg') no-repeat;
+      background-size: cover;
+      margin-top: -2%;
+      color: white;
+   }
+   .row.outer {
+      background-color: rgba(57, 63, 70, .85);
+      padding: 1rem 2rem 3rem;
+   }
+   
+   input.button
+{
+  
+}
+   input.transparent-input{
+         
+         background-color:rgba(0,0,0,0) !important;
+         
+   }
+   .mysearch {
+      border: solid 1px white;
+      position: relative;
+      border-radius: .4rem;
+      }
+      .mysearch input[type=text] {
+      
+      height:3rem;
+      padding-bottom:;
+      border-radius: .4rem;
+      }
+      .mysearch .input-group-prepend {
+      position: absolute;
+      border: solid 3px white;
+      right: .4rem;
+     
+      top: .3rem;
+      bottom: ;
+      z-index:9;
+      border-radius: .4rem;      
+      }
+               .form-rounded1
+               {
+                  padding:.2rem 2rem;
+                  height:2rem;
+                  font-size: 1rem;
+                  border-radius: .6rem;                   
+               }
+               
+          
+   /*============= MEDIA QUERIES =============*/
+
+/* Devices under 992px (lg) */
+@media (max-width: 991.98px) {
+
+}
+
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+   
+}
+
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
+   .caption
+{
+   z-index: 1;
+   position: absolute;
+   top: 10%;
+   padding-right: 5%;
+   color: white; 
+   padding-bottom: 1rem;  
+   }
+   .caption h3{
+      padding-bottom: 1rem; 
+      font-size: 80%;
+      padding-right: .8rem;
+   }
+ 
+   .caption .btn-outline-light
+   {
+      width: 150px; 
+      height: 40px;
+      padding-right: 4rem; 
+      padding: 5px 0px; 
+      border-radius: 20px; 
+      font-size: 15px; 
+      text-align: center; 
+      margin-right: 2%;
+   }
+
+   .captionimg img {
+      background-color:grey;
+      box-shadow: 0 0 .8rem rgba(0, 0, 0, 075);
+      transition: transform .7s ease;
+      margin-left: .12rem;
+      width: 19rem;
+      margin-top: .8rem;
+      
+    }
+   .captionimg img:hover {
+      transform: scale(1.1);
+   }
+
+   .home-inner
+{
+   background-image: url('../img/background2.png');
+   position: relative;
+   height: 100rem;
+   width: 100rem;
+background-size: cover;
+background-position: center center;
+display: table;
+}
+ 
+.aboutimg img{
+   width: 25rem;
+}
+
+
+.gallery img {
+   background-color:grey;
+   box-shadow: 0 0 .8rem rgba(0, 0, 0, 075);
+   transition: transform .7s ease;
+   width: 30rem;
+ }
+ .gallery img:hover {
+   transform: scale(1.1);
+}
+
+.client-inner
+   {
+   background-image: url('../img/background-bg.png');
+   position: absolute;
+   height: 46%;
+   width: 100%;
+   background-size: cover;
+   background-position:center center ;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   will-change: transform;
+   display: ;
+   }
+   
+   .client-inner h3,p
+   {
+      font-size: small;
+   }
+   .offset1:before {
+      content: "";
+      display: block;
+      margin-top: -30rem;
+   }
+   .footerbar
+   {
+
+      padding: .5rem 5rem;
+      margin-top: 15%;
+      letter-spacing: .1rem;
+      color: gray;
+      font-size: 10px;
+   }
+   .footerspa ul
+   {
+      padding: .7rem 1rem;
+    
+   }
+   .footer-underline
+   {
+      width: 4rem;
+      height: .2rem;
+      background-color:gray;
+      margin: 2 auto 3rem; 
+      
+   }
+   .footer-underline
+   {
+      Margin-top:0% ;
+      margin-top :.400rem;
+     
+   }
+   .footerunderline1
+   {
+      width: 22rem;
+      height: .2rem;
+      background-color: #1EBBA3;
+      margin: 0 auto 2rem;
+   }
+   .footerunderline2
+   {
+      width: 8rem;
+      height: .2rem;
+      background-color:blue;
+   }
+   
+}
+
+
